@@ -6,9 +6,11 @@
 * Installed dependencies and devDependencies
 * Connected the MongoDB Atlas cluster with the Express application
     * Connection URI is present in the `config/default.json` file
+* Created test routes for all 4 modules - Users, Auth, Profile and Posts
+    * All the routes inside the _module_.js file is a relative route to `/api/module` 
+    * All test routes are tested using postman and they are working
 
 ### Dependencies
-`npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request`
 
 * `express` web framework for backend
 * `express-validator` for data validation
@@ -20,7 +22,6 @@
 * `request` allows making HTTP request to other APIs. [Mainly used for calling internal APIs]
 
 ### Development Dependencies
-`npm i nodemon concurrently`
 
 * `nodemon` to constantly watch the server for changes
 * `concurrently` allows us to run express server and react dev server at the same time with one single command
