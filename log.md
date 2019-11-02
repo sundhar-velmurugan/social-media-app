@@ -1,11 +1,11 @@
 # Date: 2-11-2019
-# Setup of the project
+## Setup of the project
 * Created a MongoDB Atlas cluster
 * Added `.gitignore` file
 * Created `package.json` file using `npm init`
 * Installed dependencies and devDependencies
 
-## Dependencies
+### Dependencies
 `npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request`
 
 * `express` web framework for backend
@@ -17,7 +17,7 @@
 * `mongoose` interacts with MongoDB
 * `request` allows making HTTP request to other APIs. [Mainly used for calling internal APIs]
 
-## Development Dependencies
+### Development Dependencies
 `npm i nodemon concurrently`
 
 * `nodemon` to constantly watch the server for changes
