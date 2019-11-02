@@ -4,6 +4,8 @@
 * Added `.gitignore` file
 * Created `package.json` file using `npm init`
 * Installed dependencies and devDependencies
+* Connected the MongoDB Atlas cluster with the Express application
+    * Connection URI is present in the `config/default.json` file
 
 ### Dependencies
 `npm i express express-validator bcryptjs config gravatar jsonwebtoken mongoose request`
