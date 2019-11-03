@@ -41,3 +41,9 @@
 * Create a gravatar for the user
 * Encrypt the password
 * Save the user in the DB
+
+### JWT
+* JWT is implemented by `sign` method of **jwt** package
+* Custom middleware is implemented because `passport` package is heavy and complicated for simple login. Can be used if third party authentication like google, facebook, github is used
+* The custom middleware decodes the JWT and verifies whether it is valid or not. If it is valid the corresponding user id is attached to the _request_ object
+* The auth middleware is added to the __GET auth__ API which will be used constantly in the application the fill the redux state with the current user details
