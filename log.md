@@ -30,3 +30,8 @@
 ## User API routes and JWT Authentication
 ### User model createion
 * Model created using mongoose schema
+
+### Request and body validation
+* A __post__ request is created for the `/api/users/` route which handles user registration
+* According to schema, the name, email and password is required to check if all the necessary data is sent in the api _express validator_ is used
+* _check_ method applies the specified rules for the parameter and the _validationResult_ method catches the error thrown by *check*
