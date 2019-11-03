@@ -25,3 +25,8 @@
 
 * `nodemon` to constantly watch the server for changes
 * `concurrently` allows us to run express server and react dev server at the same time with one single command
+
+# Date: 3-11-2019
+## User API routes and JWT Authentication
+### User model createion
+* Model created using mongoose schema
