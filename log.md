@@ -35,3 +35,9 @@
 * A __post__ request is created for the `/api/users/` route which handles user registration
 * According to schema, the name, email and password is required to check if all the necessary data is sent in the api _express validator_ is used
 * _check_ method applies the specified rules for the parameter and the _validationResult_ method catches the error thrown by *check*
+
+### User Registration
+* Check whether the user already exist or not
+* Create a gravatar for the user
+* Encrypt the password
+* Save the user in the DB
