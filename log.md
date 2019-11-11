@@ -119,3 +119,11 @@
 ### Add a post
 
 - likes and comments will be handled by different endpoints
+
+### Get all posts and a post by id
+
+- Viewing posts is private, requires authentication
+
+### Delete a post
+
+- A post can be deleted only by the user created it
