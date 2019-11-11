@@ -51,3 +51,10 @@
 ### User authentication and login
 * Same logic as registration, except the `name` property is not necessary
 * Check if the user exists and if the password matches, if condition passes then JWT is sent as a response
+
+# Date 11-11-2019
+## Profile API Routes
+
+### Creating a Profile model
+* Before creating routes and APIs for profile, a model needed to be created
+* Profile model created in `/models/Profile.js`
