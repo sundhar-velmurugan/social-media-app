@@ -115,3 +115,7 @@
 
 - name and avatar are also included incase the user deletes their account
 - Like and unlike option is available not like and dislike option.
+
+### Add a post
+
+- likes and comments will be handled by different endpoints
