@@ -85,3 +85,5 @@
 ### Get all profiles and profiles by user ID
 
 ### Delete profile and User
+
+- Deleting the profile also removes the user data and the posts data
