@@ -96,8 +96,15 @@
 
 ### Delete profile experience
 
-- Find the index of the experience in the profile, remove it and update it in the DB
+- Found the index of the experience in the profile, removed it and updated it in the DB
 
 ### Add and delete profile education
 
 - Same as adding and deleting profile experience
+
+### Get Github repositories for a Profile
+
+- Register the OAuth application in github
+- Used `https://localhost:5000/` for both homepage and callback URL
+- clientId and clientSecret from github is stored in `default.json` file
+- Fetched Latest 5 repositories of a user using the github API
