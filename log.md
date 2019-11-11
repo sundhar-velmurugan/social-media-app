@@ -108,3 +108,10 @@
 - Used `https://localhost:5000/` for both homepage and callback URL
 - clientId and clientSecret from github is stored in `default.json` file
 - Fetched Latest 5 repositories of a user using the github API
+
+## Posts API Routes
+
+### Creating a Post model
+
+- name and avatar are also included incase the user deletes their account
+- Like and unlike option is available not like and dislike option.
