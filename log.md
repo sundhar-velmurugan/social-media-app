@@ -127,3 +127,12 @@
 ### Delete a post
 
 - A post can be deleted only by the user created it
+
+### Post like and unlike
+
+### Comments - add and remove
+
+- similar to posts
+
+**_TODO_** Like and unlike for comments
+**_TODO_** Update comments
