@@ -97,3 +97,7 @@
 ### Delete profile experience
 
 - Find the index of the experience in the profile, remove it and update it in the DB
+
+### Add and delete profile education
+
+- Same as adding and deleting profile experience
