@@ -87,3 +87,9 @@
 ### Delete profile and User
 
 - Deleting the profile also removes the user data and the posts data
+
+### Add profile experience
+
+- Thought experience and education belong to the same collection i.e profile, they are different resources. That is why a seperate endpoint is created for performing operations on both of them
+
+**_TODO_** Update profile experience
