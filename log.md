@@ -73,3 +73,11 @@
 ### Get Current User Profile
 
 - To get current user profile, the userid is extracted from the JWT
+
+### Create and Update Profile
+
+- Required fields such as _skills_ and _status_ is checked in the request using **express-validator**
+- Only entered values are inserted in the Database
+- Build the _profileFields_ object to insert into the database
+- If profile exist, update the profile. Otherwise, create a new profile
+- Experience and education will be handled in different endpoint
