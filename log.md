@@ -81,3 +81,7 @@
 - Build the _profileFields_ object to insert into the database
 - If profile exist, update the profile. Otherwise, create a new profile
 - Experience and education will be handled in different endpoint
+
+### Get all profiles and profiles by user ID
+
+### Delete profile and User
