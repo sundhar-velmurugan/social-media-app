@@ -1,3 +1,5 @@
+**_TODO_** Add API documentation
+
 # Date: 2-11-2019
 
 ## Setup of the project
