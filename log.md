@@ -93,3 +93,7 @@
 - Thought experience and education belong to the same collection i.e profile, they are different resources. That is why a seperate endpoint is created for performing operations on both of them
 
 **_TODO_** Update profile experience
+
+### Delete profile experience
+
+- Find the index of the experience in the profile, remove it and update it in the DB
