@@ -161,3 +161,10 @@
 ### Register form and useState hook
 
 ### Request example and login form
+
+## Redux setup and Alerts
+
+### Creating a redux store
+- Redux store is created in `client/src/store.js`
+- `composeWithDevTools` will give nicer output in redux devtools
+
