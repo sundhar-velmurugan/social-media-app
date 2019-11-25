@@ -168,3 +168,6 @@
 - Redux store is created in `client/src/store.js`
 - `composeWithDevTools` will give nicer output in redux devtools
 
+### Alert reducer, action and types
+- Reducers and actions for alerts are created in their corresponding folders
+- To create a unique id for each alert _uuid_ package is installed
