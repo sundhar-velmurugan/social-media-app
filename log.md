@@ -157,3 +157,5 @@
 - Enclosed the entire App with `<Router>` component
 - Components are mapped to their corresponding routes
 - **Link** component from react-router is used in the places where `<a>` must have been used
+
+### Register form and useState hook
