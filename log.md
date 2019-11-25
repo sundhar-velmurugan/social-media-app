@@ -194,3 +194,6 @@
 - Login and register actions triggers user authentication check
 - If the authentication is success, then the user is redirected
 - Else tokens are cleared and the user remains in the same page
+
+### Logout and Navbar links
+- Navigation bar changes when the user is logged in and logged out accordingly
