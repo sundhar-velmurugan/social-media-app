@@ -136,3 +136,17 @@
 
 **_TODO_** Like and unlike for comments
 **_TODO_** Update comments
+
+# Date: 25-11-2019
+## React and frontend
+### Setting up react and concurrency
+- React is setup using `npx create-react-app client` command
+- To concurrently run the client and the server, _concurrently_ package is used. In `/package.json` `npm run dev` command is used to concurrently run the client and the server
+- Dependencies for the client are installed - `npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment`
+- Deleted the git repository initialized inside the **client** folder as a result of using CRA, will use a common git for the entire application
+- A proxy is added to the `/client/package.json`, to avoid entering the full URL throughout the client app
+
+### Clean up and intial components
+- default styles and service workers are removed from the client directory
+- Added the _fontawesome_ script in `/client/public/index.html`
+- _Navbar_ and _Landing_ components are initialized inside the components directory and they are imported in `App.js`
