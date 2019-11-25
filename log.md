@@ -176,3 +176,11 @@
 - Added `connect` to Register component to use **setAlert**
 - Created *Alert* component to display alert messages from the *Register* componet
 - The alert messages will disappear after a specific time interval
+
+## React User Authentication
+
+### Auth Reducer and Register Action
+- JWT is obtained from the browser _localStorage_
+- If any error arises during the registration, Alert component is called
+- If registration is successful, the JWT is stored in localStorage
+  - This JWT will be used to check if the user is authenticated
