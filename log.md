@@ -184,3 +184,8 @@
 - If any error arises during the registration, Alert component is called
 - If registration is successful, the JWT is stored in localStorage
   - This JWT will be used to check if the user is authenticated
+
+### Load user and set auth token
+- Check if token exists, if exists put it in global header
+  - handled by `/client/src/utils/setAuthToken.js`
+- User auth is checked for every page
