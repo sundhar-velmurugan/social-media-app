@@ -189,3 +189,8 @@
 - Check if token exists, if exists put it in global header
   - handled by `/client/src/utils/setAuthToken.js`
 - User auth is checked for every page
+
+### User Login
+- Login and register actions triggers user authentication check
+- If the authentication is success, then the user is redirected
+- Else tokens are cleared and the user remains in the same page
