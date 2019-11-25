@@ -171,3 +171,8 @@
 ### Alert reducer, action and types
 - Reducers and actions for alerts are created in their corresponding folders
 - To create a unique id for each alert _uuid_ package is installed
+
+### Alert component and action call
+- Added `connect` to Register component to use **setAlert**
+- Created *Alert* component to display alert messages from the *Register* componet
+- The alert messages will disappear after a specific time interval
