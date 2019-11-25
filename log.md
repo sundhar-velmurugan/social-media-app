@@ -152,3 +152,8 @@
 - default styles and service workers are removed from the client directory
 - Added the _fontawesome_ script in `/client/public/index.html`
 - _Navbar_ and _Landing_ components are initialized inside the components directory and they are imported in `App.js`
+
+### React router setup
+- Enclosed the entire App with `<Router>` component
+- Components are mapped to their corresponding routes
+- **Link** component from react-router is used in the places where `<a>` must have been used
