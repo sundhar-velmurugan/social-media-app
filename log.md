@@ -222,3 +222,9 @@
 - redirect from action is done using `history.push`, redirect from components is done using `Redirect`
 - For new profile creation, the user will be redirected to `/dashboards`
 - The **history** object is passed from _withRouter_ in react-router
+
+### Edit Profile
+- Dashboard actions are added to the top of the dashboard page
+- Current user data is fetched from the server and displayed in the form
+
+**_TODO_** Invoke a callback for setState ot reflect state changes immediately in the website
