@@ -214,3 +214,8 @@
 - If profile is null, a spinner graphics is rendered
 - On logout, the user profile and the repos in the redux store is cleared
 - If the user doesnot have a profile, then a link to creating a profile is displayed
+
+### CreateProfile Component
+- Social media link fields are displayed only if toggled to view
+
+
