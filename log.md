@@ -204,3 +204,7 @@
 ### Protected route for Dashboard
 - The dashboard route `/dashboard` is protected because it should not be accessible by unauthenticated users
 - A new component **PrivateRoute** is created such that it redirects to the dashboard page if the user is authenticated else the user is redirected to login page
+
+### Profile reducer and get current profile
+- New action for fetching the current user profile is created, if successfully fetched the user profile object is returned else error object is returned
+- _Note_: If the login is successful but the user have not created a profile yet then an error will be thrown. Need to redirect to profile creation page for that case
