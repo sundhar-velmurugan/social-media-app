@@ -208,3 +208,9 @@
 ### Profile reducer and get current profile
 - New action for fetching the current user profile is created, if successfully fetched the user profile object is returned else error object is returned
 - _Note_: If the login is successful but the user have not created a profile yet then an error will be thrown. Need to redirect to profile creation page for that case
+
+### Starting on the dashboard
+- Landing page should not be visible if the user is logged in
+- If profile is null, a spinner graphics is rendered
+- On logout, the user profile and the repos in the redux store is cleared
+- If the user doesnot have a profile, then a link to creating a profile is displayed
