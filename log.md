@@ -197,3 +197,10 @@
 
 ### Logout and Navbar links
 - Navigation bar changes when the user is logged in and logged out accordingly
+
+# Date 3-12-2019
+## Dashboard and Profile Management
+
+### Protected route for Dashboard
+- The dashboard route `/dashboard` is protected because it should not be accessible by unauthenticated users
+- A new component **PrivateRoute** is created such that it redirects to the dashboard page if the user is authenticated else the user is redirected to login page
