@@ -228,3 +228,6 @@
 - Current user data is fetched from the server and displayed in the form
 
 **_TODO_** Invoke a callback for setState ot reflect state changes immediately in the website
+
+### Add Education and Experience
+
