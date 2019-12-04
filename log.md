@@ -198,7 +198,7 @@
 ### Logout and Navbar links
 - Navigation bar changes when the user is logged in and logged out accordingly
 
-# Date 3-12-2019
+# Date 3-12-2019 and 4-12-2019
 ## Dashboard and Profile Management
 
 ### Protected route for Dashboard
@@ -233,3 +233,7 @@
 
 ### List Education and Experience
 - Moment package is used to format the display of date
+
+### Delete Experience, Education and Account
+- After the account is deleted, the profile is cleared from the redux store and the JWT is removed from the localStorage
+- The posts created by the user will also be deleted upon account deletion
