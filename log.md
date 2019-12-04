@@ -231,3 +231,5 @@
 
 ### Add Education and Experience
 
+### List Education and Experience
+- Moment package is used to format the display of date
