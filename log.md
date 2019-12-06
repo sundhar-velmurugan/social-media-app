@@ -243,3 +243,5 @@
 
 ### Finish profile actions and reducers
 - For listing all profiles, the current user profile is cleared and the response from the server is populated on the list of profiles
+
+### Display profiles
