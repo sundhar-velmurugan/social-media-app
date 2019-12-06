@@ -237,3 +237,9 @@
 ### Delete Experience, Education and Account
 - After the account is deleted, the profile is cleared from the redux store and the JWT is removed from the localStorage
 - The posts created by the user will also be deleted upon account deletion
+
+# Date 6-12-2019
+## Profile display
+
+### Finish profile actions and reducers
+- For listing all profiles, the current user profile is cleared and the response from the server is populated on the list of profiles
