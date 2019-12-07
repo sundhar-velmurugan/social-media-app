@@ -1,6 +1,0 @@
-{
-  "mongoURI": "MONGODB_URL",
-  "jwtSecret": "SOME_RAMDOM_STRING_AS_JWT_TOKEN",
-  "githubClientId": "FROM_GITHUB",
-  "githubSecret": "FROM_GITHUB"
-}
