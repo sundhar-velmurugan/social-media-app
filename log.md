@@ -253,3 +253,5 @@
 - id in the url can be accessed by _props.match.params_
 
 ### ProfileTop and ProfileAbout Components
+
+### Profile Experience and Education display
