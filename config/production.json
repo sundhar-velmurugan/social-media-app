@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://sundhar:MongoDBUser@devconnetor-2gz7d.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "sundhar'sSecretTokenNumber811",
+  "githubClientId": "56dc29a0c74c7bb3e208",
+  "githubSecret": "2109d46c1d3d044fca8492d7aa0d02cc8dd8c40d"
+}

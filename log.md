@@ -278,3 +278,9 @@
 ### Adding comments
 
 ### Comment Display and Delete
+
+## Prepare and Deploy
+### Preparing for deployment
+- A new config for production is created in `/config/production,json`
+- Build script is added to the server `package.json`, the dependencies will be installed and the static modules will be built by the heroku server
+- If the environment is 'production' then every route other then user, auth, post, profile will be redirected to the static index.html file
