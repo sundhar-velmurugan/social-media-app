@@ -245,3 +245,9 @@
 - For listing all profiles, the current user profile is cleared and the response from the server is populated on the list of profiles
 
 ### Display profiles
+
+# Date: 7-12-2019
+
+### Starting on the profile
+- If the user views their own profile edit option will appear
+- id in the url can be accessed by _props.match.params_
