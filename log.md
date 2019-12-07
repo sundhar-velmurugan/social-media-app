@@ -272,3 +272,5 @@
 
 ### Adding posts
 **_TODO_** Move the config headers in action files to a common constant file
+
+### Get Single Post
