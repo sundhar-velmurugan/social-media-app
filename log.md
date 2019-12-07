@@ -262,3 +262,6 @@
 ## Posts and Comments
 
 ### Post reducer, Action and Initial Component
+
+### Post Item Component
+- Delete option for the post id displayed only for the user who created that post
