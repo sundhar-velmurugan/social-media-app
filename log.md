@@ -255,3 +255,6 @@
 ### ProfileTop and ProfileAbout Components
 
 ### Profile Experience and Education display
+
+### Displaying Github repos
+- Github repo items are displayed within the github component because that component will not be reused elsewhere
