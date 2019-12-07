@@ -265,3 +265,5 @@
 
 ### Post Item Component
 - Delete option for the post id displayed only for the user who created that post
+
+### Like and unlike functionality
