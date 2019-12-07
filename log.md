@@ -258,3 +258,7 @@
 
 ### Displaying Github repos
 - Github repo items are displayed within the github component because that component will not be reused elsewhere
+
+## Posts and Comments
+
+### Post reducer, Action and Initial Component
