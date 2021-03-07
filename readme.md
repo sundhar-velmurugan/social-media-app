@@ -1,7 +1,6 @@
 ## About
-- This is a social media application developed from "MERN Stack Front To Back" course on Udemy [Course link at the bottom]
+- This is a social media application
 - The app includes authentication, profiles and forum posts
-- Checkout `log.md` for my full walkthrough of this course
 
 ## App link:
 https://evening-refuge-82094.herokuapp.com/
@@ -38,4 +37,3 @@ cd client
 npm run build
 ```
 ---
-Course Link: https://www.udemy.com/course/mern-stack-front-to-back/
